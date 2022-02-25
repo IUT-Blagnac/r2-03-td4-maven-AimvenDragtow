@@ -34,12 +34,14 @@ Cela permet :
 
 == Générer la javadoc
 
-WARNING: Compiler le code avant de générer la javadoc
+WARNING: Compilez le code avant de générer la javadoc
 
 Il suffit de d'utiliser la commande `mvn javadoc:javadoc`
 
 == Compiler le code
 
-. 
-.
-.
+WARNING: Pensez avant toutes choses de faire un `mvn clean`
+
+- Pour compiler en .class `mvn compile`
+- Pour creer l'executable .jar `mvn package`
+- Pour executer le .jar généré `java -jar target/tp_qualite-1.0.jar`
